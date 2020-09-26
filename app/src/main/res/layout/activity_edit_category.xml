@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/activity_edit_category_0" android:layout_width="-1" android:layout_height="-1">
+	<com.google.android.material.appbar.MaterialToolbar android:id="false" android:layout_width="-1" android:layout_height="{2:2130968580}" app:layout_constraintTop_toTopOf="0" style="resourceId:0x7f1402f9">
+		<TextView android:textSize="18sp" android:textColor="ffffff" android:gravity="0x11" android:layout_gravity="0x11" android:layout_width="-2" android:layout_height="-2" android:text="Edit category" android:fontFamily="res/font/galano_grotesque_medium.otf" />
+	</com.google.android.material.appbar.MaterialToolbar>
+	<androidx.appcompat.widget.AppCompatEditText android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_margin="16dp" android:hint="Category Name" android:singleLine="true" android:fontFamily="res/font/galano_grotesque_regular.ttf" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintRight_toRightOf="0" app:layout_constraintTop_toBottomOf="false" style="resourceId:0x7f1400f3" />
+	<app.dukhaan.ui.views.PrimaryButton android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="32dp" android:text="Update" app:enabled="false" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:text="Update" />
+</androidx.constraintlayout.widget.ConstraintLayout>

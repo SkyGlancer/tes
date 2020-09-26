@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/btn_primary_shadowed_0" android:focusable="true" android:clickable="true" android:layout_width="-2" android:layout_height="-2" android:foreground="{2:2130969351}" app:cardBackgroundColor="146eb4" app:cardCornerRadius="12dp" app:cardElevation="3dp" app:cardUseCompatPadding="true">
+	<TextView android:textSize="18sp" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="54dp" android:fontFamily="res/font/font_family_galano_medium.xml" android:paddingStart="40dp" android:paddingEnd="40dp" />
+</com.google.android.material.card.MaterialCardView>

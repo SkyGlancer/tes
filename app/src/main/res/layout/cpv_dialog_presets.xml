@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-2">
+	<LinearLayout android:orientation="1" android:padding="16dp" android:layout_width="-1" android:layout_height="-2">
+		<com.jaredrummler.android.colorpicker.NestedGridView android:id="false" android:clickable="false" android:layout_width="-1" android:layout_height="-2" android:listSelector="resourceId:0x106000d" android:cacheColorHint="resourceId:0x106000d" android:horizontalSpacing="4dp" android:verticalSpacing="8dp" android:stretchMode="3" android:columnWidth="58dp" android:numColumns="-1" />
+		<View android:id="false" android:background="{2:16843530}" android:layout_width="-1" android:layout_height="1dp" android:layout_marginTop="12dp" android:layout_marginBottom="12dp" />
+		<HorizontalScrollView android:scrollbars="0x0" android:layout_width="-1" android:layout_height="-2" android:overScrollMode="2">
+			<LinearLayout android:orientation="0" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="4dp" android:layout_marginRight="4dp" />
+		</HorizontalScrollView>
+		<TextView android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_margin="12dp" android:text="Transparency" />
+		<LinearLayout android:orientation="0" android:id="false" android:layout_width="-1" android:layout_height="-2" android:weightSum="{4:1120403456}">
+			<SeekBar android:layout_gravity="0x10" android:id="false" android:layout_width="0dp" android:layout_height="-2" android:layout_marginRight="4dp" android:layout_weight="{4:1118437376}" />
+			<TextView android:typeface="3" android:textStyle="0x1" android:layout_gravity="0x10" android:id="false" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1097859072}" />
+		</LinearLayout>
+	</LinearLayout>
+</ScrollView>

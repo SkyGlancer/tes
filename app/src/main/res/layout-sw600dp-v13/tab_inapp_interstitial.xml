@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" android:layout_gravity="0x11" android:id="false" android:layout_width="-1" android:layout_height="-1">
+	<RelativeLayout android:layout_gravity="0x11" android:id="false" android:layout_width="-1" android:layout_height="-1" android:layout_margin="40dp">
+		<TextView android:textSize="22sp" android:textStyle="0x1" android:textColor="resourceId:0x106000c" android:gravity="0x11" android:id="false" android:layout_width="240dp" android:layout_height="-2" android:layout_marginTop="36dp" android:maxLines="1" android:layout_centerHorizontal="true" />
+		<ImageView android:id="false" android:visibility="1" android:layout_width="408dp" android:layout_height="229dp" android:layout_marginTop="6dp" android:scaleType="6" android:layout_below="false" android:layout_centerHorizontal="true" />
+		<com.clevertap.android.sdk.GifImageView android:id="false" android:visibility="2" android:layout_width="408dp" android:layout_height="229dp" android:layout_marginTop="6dp" android:scaleType="6" android:layout_below="false" android:layout_centerHorizontal="true" />
+		<FrameLayout android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_below="false" android:layout_centerHorizontal="true" />
+		<TextView android:textSize="18sp" android:textColor="resourceId:0x106000c" android:gravity="0x11" android:id="false" android:layout_width="240dp" android:layout_height="-2" android:layout_marginTop="24dp" android:maxLines="3" android:layout_below="false" android:layout_centerHorizontal="true" />
+		<LinearLayout android:gravity="0x50" android:orientation="1" android:id="false" android:visibility="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="30dp" android:layout_marginRight="30dp" android:layout_marginBottom="30dp" android:layout_below="false" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+			<Button android:textSize="16sp" android:id="false" android:visibility="1" android:layout_width="-1" android:layout_height="42dp" />
+			<Button android:textSize="16sp" android:id="false" android:visibility="1" android:layout_width="-1" android:layout_height="42dp" android:layout_marginTop="14dp" />
+		</LinearLayout>
+	</RelativeLayout>
+	<com.clevertap.android.sdk.CloseImageView android:layout_gravity="0x800035" android:layout_width="40dp" android:layout_height="40dp" android:adjustViewBounds="true" />
+</FrameLayout>

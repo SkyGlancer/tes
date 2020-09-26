@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/activity_splash_0" android:background="146eb4" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:gravity="0x11" android:orientation="1" android:layout_width="-1" android:layout_height="-2" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0">
+		<ImageView android:id="false" android:layout_width="237dp" android:layout_height="66dp" android:src="resourceId:0x7f08022b" />
+		<LinearLayout android:id="false" android:layout_width="-2" android:layout_height="-2">
+			<TextView android:textSize="16sp" android:textColor="ffffff" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="12dp" android:text="TRUSTED BY" android:fontFamily="res/font/galano_grotesque.otf" android:letterSpacing="{4:1036831949}" android:lineHeight="28sp" />
+			<TextView android:textSize="16sp" android:textColor="ffffff" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="12dp" android:text=" 4.5 LAKH " android:fontFamily="res/font/galano_grotesque_semi_bold.otf" android:letterSpacing="{4:1036831949}" android:lineHeight="28sp" />
+			<TextView android:textSize="16sp" android:textColor="ffffff" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="12dp" android:text="BUSINESSES" android:fontFamily="res/font/galano_grotesque.otf" android:letterSpacing="{4:1036831949}" android:lineHeight="28sp" />
+		</LinearLayout>
+	</LinearLayout>
+	<LinearLayout android:gravity="0x11" android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="20dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0">
+		<ImageView android:layout_width="88dp" android:layout_height="44dp" android:layout_marginBottom="24dp" android:src="resourceId:0x7f080266" />
+		<LinearLayout android:gravity="0x11" android:layout_width="-1" android:layout_height="-2">
+			<TextView android:textSize="16sp" android:textColor="ffffff" android:layout_width="-2" android:layout_height="-2" android:text="Made in India" android:fontFamily="res/font/galano_grotesque.otf" android:lineHeight="28sp" />
+			<ImageView android:layout_width="32dp" android:layout_height="20dp" android:layout_marginTop="2dp" android:src="res/drawable-nodpi-v4/flag_in.png" />
+		</LinearLayout>
+	</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

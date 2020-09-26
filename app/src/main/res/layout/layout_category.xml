@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:card_view="http://schemas.android.com/apk/res-auto" android:background="resourceId:0x106000b" android:layout_width="-1" android:layout_height="-2" android:layout_margin="6dp" app:cardElevation="3dp" app:cardUseCompatPadding="false">
+	<androidx.constraintlayout.widget.ConstraintLayout android:paddingTop="16dp" android:paddingBottom="16dp" android:layout_width="-1" android:layout_height="-2" android:paddingStart="16dp">
+		<TextView android:textSize="16sp" android:textColor="1a181e" android:id="false" android:layout_width="-2" android:layout_height="-2" android:fontFamily="res/font/font_family_galano_medium.xml" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" />
+		<TextView android:textSize="14sp" android:textColor="808080" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="3dp" android:fontFamily="res/font/font_family_galano_regular.xml" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="false" />
+		<ImageView android:id="false" android:padding="5dp" android:layout_width="30dp" android:layout_height="30dp" android:foreground="{2:2130969352}" android:src="resourceId:0x7f080235" android:layout_marginEnd="6dp" app:layout_constraintBottom_toBottomOf="false" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="false" />
+	</androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>

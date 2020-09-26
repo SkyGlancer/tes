@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" android:textSize="18sp" android:textColor="146eb4" android:gravity="0x11" android:id="false" android:tag="layout/btn_primary_white_0" android:background="res/drawable/bg_btn_primary_white_enabled.xml" android:focusable="true" android:clickable="true" android:layout_width="-2" android:layout_height="54dp" android:fontFamily="res/font/font_family_galano_medium.xml" android:paddingStart="40dp" android:paddingEnd="40dp" />

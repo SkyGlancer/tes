@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:orientation="1" android:padding="16dp" android:layout_width="-1" android:layout_height="-2">
+		<ImageView android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="20dp" android:src="resourceId:0x7f08026e" />
+		<TextView android:textSize="18sp" android:textColor="1a181e" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="16dp" android:layout_marginBottom="8dp" android:text="Dukaan Branding 
+successfully removed!" android:fontFamily="res/font/font_family_galano_medium.xml" android:textAlignment="4" />
+		<TextView android:textSize="15sp" android:textColor="4d4d4d" android:id="false" android:paddingLeft="16dp" android:paddingRight="16dp" android:paddingBottom="32dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="16dp" android:text="Congratulations. Your store will no longer have Dukaan’s branding on the top." android:fontFamily="res/font/galano_grotesque_regular.ttf" android:textAlignment="4" />
+		<app.dukhaan.ui.views.PrimaryButton android:textColor="ffffff" android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" app:text="Close" />
+	</LinearLayout>
+</LinearLayout>

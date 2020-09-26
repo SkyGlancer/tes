@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" android:layout_gravity="0x11" android:id="false" android:layout_width="-1" android:layout_height="-1">
+	<RelativeLayout android:layout_gravity="0x11" android:id="false" android:layout_width="-1" android:layout_height="-1" android:layout_margin="40dp">
+		<ImageView android:id="false" android:visibility="0" android:layout_width="-1" android:layout_height="-1" android:scaleType="6" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+	</RelativeLayout>
+	<com.clevertap.android.sdk.CloseImageView android:layout_gravity="0x800035" android:layout_width="40dp" android:layout_height="40dp" android:adjustViewBounds="true" />
+</FrameLayout>

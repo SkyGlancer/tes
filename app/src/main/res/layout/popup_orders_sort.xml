@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:card_view="http://schemas.android.com/apk/res-auto" android:background="resourceId:0x106000d" android:layout_width="-2" android:layout_height="-2" app:cardElevation="6dp" app:cardUseCompatPadding="true">
+	<androidx.constraintlayout.widget.ConstraintLayout android:padding="16dp" android:layout_width="-2" android:layout_height="-2">
+		<RadioGroup android:orientation="1" android:id="false" android:layout_width="-2" android:layout_height="-2" android:checkedButton="false" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0">
+			<RadioButton android:textSize="16sp" android:textColor="353535" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="All" android:fontFamily="res/font/galano_grotesque_regular.ttf" />
+			<RadioButton android:textSize="16sp" android:textColor="353535" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Pending" android:fontFamily="res/font/galano_grotesque_regular.ttf" />
+			<RadioButton android:textSize="16sp" android:textColor="353535" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Accepted" android:fontFamily="res/font/galano_grotesque_regular.ttf" />
+			<RadioButton android:textSize="16sp" android:textColor="353535" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Declined" android:fontFamily="res/font/galano_grotesque_regular.ttf" />
+			<RadioButton android:textSize="16sp" android:textColor="353535" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Shipped" android:fontFamily="res/font/galano_grotesque_regular.ttf" />
+			<RadioButton android:textSize="16sp" android:textColor="353535" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Cancelled" android:fontFamily="res/font/galano_grotesque_regular.ttf" />
+			<RadioButton android:textSize="16sp" android:textColor="353535" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Delivered" android:fontFamily="res/font/galano_grotesque_regular.ttf" />
+		</RadioGroup>
+	</androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>

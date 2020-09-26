@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout style="resourceId:0x7f14030c">
+	<com.yalantis.ucrop.view.widget.AspectRatioTextView style="resourceId:0x7f14030a" />
+</FrameLayout>

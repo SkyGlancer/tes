@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2">
+	<RelativeLayout android:orientation="1" android:id="false" android:background="resourceId:0x106000b" android:layout_width="-1" android:layout_height="-2">
+		<LinearLayout android:orientation="1" android:id="false" android:visibility="0" android:layout_width="-1" android:layout_height="-2">
+			<com.clevertap.android.sdk.CTCarouselViewPager android:id="false" android:layout_width="-1" android:layout_height="-2" />
+			<LinearLayout android:gravity="0x11" android:orientation="0" android:id="false" android:layout_width="-1" android:layout_height="-2" />
+		</LinearLayout>
+		<TextView android:textStyle="0x1" android:textColor="resourceId:0x106000c" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="20dp" android:layout_marginTop="20dp" android:layout_marginRight="20dp" android:maxLines="1" android:layout_below="false" android:layout_marginStart="20dp" android:layout_marginEnd="20dp" />
+		<TextView android:textColor="resourceId:0x1060000" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="20dp" android:layout_marginTop="5dp" android:layout_marginRight="20dp" android:maxLines="3" android:layout_below="false" android:layout_marginStart="20dp" android:layout_marginEnd="20dp" />
+		<LinearLayout android:gravity="0x800005" android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="20dp" android:layout_marginBottom="10dp" android:layout_below="false">
+			<TextView android:textColor="resourceId:0x1060000" android:gravity="0x800005" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="10dp" android:layout_marginEnd="10dp" />
+			<ImageView android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="20dp" android:src="res/drawable/ct_read_circle.xml" android:layout_marginEnd="20dp" />
+		</LinearLayout>
+	</RelativeLayout>
+</RelativeLayout>

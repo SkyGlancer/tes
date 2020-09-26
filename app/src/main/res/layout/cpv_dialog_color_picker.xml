@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="-1" android:layout_height="-2">
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+		<com.jaredrummler.android.colorpicker.ColorPickerView android:id="false" android:padding="16dp" style="resourceId:0x7f140307" />
+		<LinearLayout android:orientation="0" android:padding="16dp" android:layout_width="-1" android:layout_height="-2">
+			<com.jaredrummler.android.colorpicker.ColorPanelView android:id="false" android:layout_width="66dp" android:layout_height="34dp" app:cpv_colorShape="0" />
+			<ImageView android:layout_gravity="0x10" android:id="false" android:paddingLeft="4dp" android:paddingRight="4dp" android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-anydpi-v21/cpv_ic_arrow_right_black_24dp.xml" />
+			<com.jaredrummler.android.colorpicker.ColorPanelView android:id="false" android:layout_width="66dp" android:layout_height="34dp" app:cpv_colorShape="0" />
+			<Space android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="{4:1065353216}" />
+			<LinearLayout android:gravity="0x5" android:orientation="0" android:focusableInTouchMode="true" android:descendantFocusability="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="16dp">
+				<TextView android:typeface="3" android:layout_width="-2" android:layout_height="-2" android:text="#" />
+				<EditText android:typeface="3" android:id="false" android:focusable="true" android:layout_width="110dp" android:layout_height="-2" android:maxLines="1" android:maxLength="8" android:digits="0123456789ABCDEFabcdef" android:inputType="0x80001" android:imeOptions="0x2" />
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+</ScrollView>

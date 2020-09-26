@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+	<item>
+		<rotate android:drawable="resourceId:0x7f0801f1" android:fromDegrees="{4:0}" android:toDegrees="{4:1127481344}" android:pivotX="1.5046333E-36%" android:pivotY="1.5046333E-36%" />
+	</item>
+</layer-list>

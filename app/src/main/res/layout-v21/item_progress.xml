@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-2">
+	<ProgressBar android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" />
+	<LinearLayout android:orientation="0" android:id="false" android:background="{2:2130969351}" android:paddingTop="16dp" android:paddingBottom="16dp" android:visibility="2" android:clickable="true" android:layout_width="-1" android:layout_height="-1">
+		<ImageButton android:layout_gravity="0x11" android:id="false" android:background="res/drawable/rety_selector.xml" android:padding="8dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="24dp" android:src="res/drawable-anydpi-v21/ic_refresh_black_24dp.xml" android:tint="aaadc4" android:layout_marginStart="24dp" android:tintMode="5" />
+		<LinearLayout android:gravity="0x10" android:orientation="1" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="16dp" android:layout_marginRight="24dp" android:layout_marginStart="16dp" android:layout_marginEnd="24dp">
+			<TextView android:id="false" android:layout_width="-1" android:layout_height="-2" style="resourceId:0x7f14001a" />
+			<TextView android:layout_width="-1" android:layout_height="-2" android:text="Tap to reload" style="resourceId:0x7f14001d" />
+		</LinearLayout>
+	</LinearLayout>
+</FrameLayout>

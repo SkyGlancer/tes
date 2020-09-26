@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:card_view="http://schemas.android.com/apk/res-auto" android:background="resourceId:0x106000b" android:layout_width="-1" android:layout_height="-2" app:cardElevation="3dp" app:cardUseCompatPadding="true">
+	<androidx.constraintlayout.widget.ConstraintLayout android:padding="16dp" android:layout_width="-1" android:layout_height="-2">
+		<TextView android:textSize="12sp" android:textColor="808080" android:id="false" android:layout_width="-1" android:layout_height="-2" android:textAllCaps="true" android:fontFamily="res/font/font_family_galano_regular.xml" app:layout_constraintTop_toTopOf="0" />
+		<TextView android:textSize="24sp" android:textColor="1a181e" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="8dp" android:fontFamily="res/font/font_family_galano_medium.xml" app:layout_constraintLeft_toLeftOf="false" app:layout_constraintTop_toBottomOf="false" />
+	</androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="false" android:title="Life Time" android:font="res/font/galano_grotesque_regular.ttf" />
+	<item android:id="false" android:title="Today" android:font="res/font/galano_grotesque_regular.ttf" />
+	<item android:id="false" android:title="Yesterday" android:font="res/font/galano_grotesque_regular.ttf" />
+	<item android:id="false" android:title="Last Week" android:font="res/font/galano_grotesque_regular.ttf" />
+	<item android:id="false" android:title="Last Month" android:font="res/font/galano_grotesque_regular.ttf" />
+</menu>

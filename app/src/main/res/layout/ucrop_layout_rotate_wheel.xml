@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+	<TextView android:id="false" android:text="100°" style="resourceId:0x7f14030b" />
+	<com.yalantis.ucrop.view.widget.HorizontalProgressWheelView android:id="false" android:layout_width="-1" android:layout_height="-1" android:layout_toLeftOf="false" android:layout_toRightOf="false" android:layout_below="false" android:layout_toStartOf="false" android:layout_toEndOf="false" />
+	<FrameLayout android:id="false" android:layout_centerVertical="true" style="resourceId:0x7f14030d">
+		<ImageView android:src="resourceId:0x7f080274" style="resourceId:0x7f140309" />
+	</FrameLayout>
+	<FrameLayout android:id="false" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true" style="resourceId:0x7f14030d">
+		<ImageView android:src="resourceId:0x7f08026f" style="resourceId:0x7f140309" />
+	</FrameLayout>
+</RelativeLayout>

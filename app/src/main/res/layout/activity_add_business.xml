@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="-1"
+    android:layout_height="-1"
+    android:tag="layout/activity_add_business_0">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="false"
+        android:layout_width="-1"
+        android:layout_height="{2:2130968580}"
+        android:background="ffffff"
+        app:layout_constraintEnd_toEndOf="0"
+        app:layout_constraintStart_toStartOf="0"
+        app:layout_constraintTop_toTopOf="0"
+        app:popupTheme="resourceId:0x7f14021f" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="false"
+        android:layout_width="-1"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="0"
+        app:layout_constraintTop_toBottomOf="false">
+
+        <TextView
+            android:id="false"
+            android:layout_width="-2"
+            android:layout_height="-2"
+            android:fontFamily="res/font/font_family_galano_medium.xml"
+            android:text="Enter business details"
+            android:textColor="1a181e"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="0"
+            app:layout_constraintTop_toTopOf="0" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="false"
+            android:layout_width="-1"
+            android:layout_height="-2"
+            android:layout_marginTop="20dp"
+            android:background="res/drawable/editext_background.xml"
+            android:fontFamily="res/font/font_family_galano_regular.xml"
+            android:hint="Business Name"
+            android:inputType="0x2001"
+            android:maxLines="1"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="1a181e"
+            android:textColorHint="b3b3b3"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="0"
+            app:layout_constraintTop_toBottomOf="false" />
+
+        <TextView
+            android:id="false"
+            android:layout_width="-1"
+            android:layout_height="-2"
+            android:layout_marginTop="32dp"
+            android:background="res/drawable/bg_input_mobile.xml"
+            android:fontFamily="res/font/font_family_galano_regular.xml"
+            android:hint="Country"
+            android:maxLines="1"
+            android:paddingTop="10dp"
+            android:paddingEnd="5dp"
+            android:paddingBottom="10dp"
+            android:textColor="1a181e"
+            android:textColorHint="b3b3b3"
+            android:textSize="16sp"
+            app:layout_constraintTop_toBottomOf="false" />
+
+        <app.dukhaan.ui.views.SpinnerImage
+            android:id="false"
+            android:layout_width="-2"
+            android:layout_height="-2"
+            app:layout_constraintBottom_toBottomOf="false"
+            app:layout_constraintEnd_toEndOf="0"
+            app:layout_constraintTop_toTopOf="false" />
+
+        <TextView
+            android:id="false"
+            android:layout_width="-1"
+            android:layout_height="-2"
+            android:layout_marginTop="32dp"
+            android:background="{2:2130969351}"
+            android:drawableEnd="resourceId:0x7f08005f"
+            android:fontFamily="res/font/font_family_galano_regular.xml"
+            android:hint="Address"
+            android:maxLines="1"
+            android:paddingTop="10dp"
+            android:paddingEnd="3dp"
+            android:paddingBottom="10dp"
+            android:textColor="1a181e"
+            android:textColorHint="b3b3b3"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="0"
+            app:layout_constraintTop_toBottomOf="false" />
+
+        <View
+            android:layout_width="-1"
+            android:layout_height="1dp"
+            android:background="d9d9d9"
+            app:layout_constraintTop_toBottomOf="false" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="false"
+            style="resourceId:0x7f1400f3"
+            android:layout_marginTop="10dp"
+            android:hint="WhatsApp Number"
+            android:inputType="0x3"
+            android:visibility="2"
+            app:layout_constraintStart_toStartOf="0"
+            app:layout_constraintTop_toBottomOf="false" />
+
+        <app.dukhaan.ui.views.PrimaryButton
+            android:id="false"
+            android:layout_width="-2"
+            android:layout_height="-2"
+            android:layout_marginBottom="32dp"
+            app:enabled="false"
+            app:layout_constraintBottom_toBottomOf="0"
+            app:layout_constraintEnd_toEndOf="0"
+            app:layout_constraintStart_toStartOf="0"
+            app:text="Finish" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

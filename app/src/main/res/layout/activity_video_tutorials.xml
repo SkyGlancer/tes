@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/activity_video_tutorials_0" android:layout_width="-1" android:layout_height="-1">
+	<com.google.android.material.appbar.MaterialToolbar android:id="false" android:layout_width="-1" android:layout_height="{2:2130968580}" app:layout_constraintTop_toTopOf="0" style="resourceId:0x7f1402f9">
+		<TextView android:textSize="18sp" android:textColor="ffffff" android:gravity="0x11" android:layout_gravity="0x11" android:layout_width="-2" android:layout_height="-2" android:text="Video Tutorials" android:fontFamily="res/font/font_family_galano_medium.xml" />
+	</com.google.android.material.appbar.MaterialToolbar>
+	<androidx.recyclerview.widget.RecyclerView android:id="false" android:padding="8dp" android:layout_width="-1" android:layout_height="-2" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" app:layout_constraintTop_toBottomOf="false" />
+</androidx.constraintlayout.widget.ConstraintLayout>

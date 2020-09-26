@@ -1,0 +1,64 @@
+Summary for /storage/emulated/0/show-java/sources/com.dukaan.app/jar-files/4.jar
+Decompiled with CFR 0.0
+
+
+app.dukhaan.otp.OtpView
+----------------------------
+
+updateOtpViewBoxPath(int )
+  Unable to fully structure code
+
+
+com.airbnb.lottie.parser.moshi.JsonUtf8Reader
+----------------------------
+
+isLiteral(int )
+  Unable to fully structure code
+nextInt()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl162.1 : ALOAD_0 : trying to set 1 previously set to 0
+skipValue()
+  Unable to fully structure code
+
+
+com.getkeepsafe.relinker.ApkLibraryInstaller
+----------------------------
+
+closeSilently(java.io.Closeable )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Underrun type stack
+findAPKWithLibrary(android.content.Context java.lang.String[] java.lang.String com.getkeepsafe.relinker.ReLinkerInstance )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Underrun type stack
+getSupportedABIs(android.content.Context java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl89.1 : IINC : trying to set 1 previously set to 0
+installLibrary(android.content.Context java.lang.String[] java.lang.String java.io.File com.getkeepsafe.relinker.ReLinkerInstance )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Underrun type stack
+
+
+io.branch.referral.Branch
+----------------------------
+
+appendDebugParams(org.json.JSONObject )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl32.1 : ALOAD_1 : trying to set 1 previously set to 0
+checkForAutoDeepLinkConfiguration()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Underrun type stack
+checkForAutoDeepLinkPath(org.json.JSONObject android.content.pm.ActivityInfo )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl29.1 : ALOAD_2 : trying to set 1 previously set to 0
+extractBranchLinkFromIntentExtra(android.app.Activity )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl60.1 : ICONST_0 : trying to set 1 previously set to 0
+extractClickID(android.net.Uri android.app.Activity )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl124.1 : ICONST_0 : trying to set 0 previously set to 1
+extractExternalUriAndIntentExtras(android.net.Uri android.app.Activity )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Underrun type stack
+extractSessionParamsForIDL(android.net.Uri android.app.Activity )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Underrun type stack
+generateShortLinkSync(io.branch.referral.ServerRequestCreateUrl )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl39 : ALOAD_1 : trying to set 1 previously set to 0
+onPostExecute(io.branch.referral.ServerResponse )
+  Unable to fully structure code
+showInstallPrompt(android.app.Activity int )
+  Loose catch block
+addModule(org.json.JSONObject )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl6 : ALOAD_2 : trying to set 1 previously set to 0
+getFirstReferringParamsSync()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Underrun type stack
+getLatestReferringParamsSync()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Underrun type stack

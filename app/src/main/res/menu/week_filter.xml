@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="false" android:title="Life Time" />
+	<item android:id="false" android:title="Today" />
+	<item android:id="false" android:title="Yesterday" />
+	<item android:id="false" android:title="Last Week" />
+	<item android:id="false" android:title="Last Month" />
+</menu>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="false" android:title="Ice Creams" android:font="res/font/galano_grotesque_regular.ttf" />
+	<item android:id="false" android:title="Rice and Rotis" android:font="res/font/galano_grotesque_regular.ttf" />
+	<item android:id="false" android:title="Chinese Cuisines" android:font="res/font/galano_grotesque_regular.ttf" />
+</menu>

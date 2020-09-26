@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/activity_change_language_0" android:layout_width="-1" android:layout_height="-1">
+	<com.google.android.material.appbar.MaterialToolbar android:id="false" android:layout_width="-1" android:layout_height="{2:2130968580}" app:layout_constraintTop_toTopOf="0" style="resourceId:0x7f1402f9">
+		<TextView android:textSize="18sp" android:textColor="ffffff" android:gravity="0x11" android:layout_gravity="0x11" android:layout_width="-2" android:layout_height="-2" android:text="Change Language" android:fontFamily="res/font/font_family_galano_medium.xml" />
+	</com.google.android.material.appbar.MaterialToolbar>
+	<androidx.recyclerview.widget.RecyclerView android:id="false" android:layout_width="-1" android:layout_height="-2" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" app:layout_constraintTop_toBottomOf="false" />
+	<app.dukhaan.ui.views.PrimaryButton android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="32dp" app:enabled="true" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:text="Save changes" />
+</androidx.constraintlayout.widget.ConstraintLayout>

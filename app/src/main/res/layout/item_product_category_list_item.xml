@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/item_product_category_list_item_0" android:layout_width="-1" android:layout_height="-2">
+	<TextView android:textSize="16sp" android:textColor="1a181e" android:id="false" android:background="{2:2130969351}" android:padding="6dp" android:layout_width="-1" android:layout_height="-2" android:foreground="{2:2130969352}" android:fontFamily="res/font/font_family_galano_regular.xml" app:layout_constraintTop_toTopOf="0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

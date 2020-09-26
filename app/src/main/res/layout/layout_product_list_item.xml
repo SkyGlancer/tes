@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:card_view="http://schemas.android.com/apk/res-auto" android:background="resourceId:0x106000b" android:layout_width="-1" android:layout_height="-2" android:layout_margin="6dp" app:cardElevation="3dp" app:cardUseCompatPadding="false">
+	<androidx.constraintlayout.widget.ConstraintLayout android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="-1" android:layout_height="-2" android:paddingStart="8dp">
+		<com.google.android.material.imageview.ShapeableImageView android:id="false" android:layout_width="88dp" android:layout_height="88dp" android:scaleType="6" android:adjustViewBounds="true" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintTop_toTopOf="0" />
+		<TextView android:textSize="15sp" android:textColor="1a181e" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="9dp" android:fontFamily="res/font/font_family_galano_regular.xml" android:layout_marginStart="16dp" app:layout_constraintLeft_toRightOf="false" app:layout_constraintTop_toTopOf="0" />
+		<ImageView android:id="false" android:padding="6dp" android:layout_width="30dp" android:layout_height="30dp" android:foreground="{2:2130969352}" android:src="resourceId:0x7f080235" android:layout_marginEnd="6dp" app:layout_constraintRight_toRightOf="0" app:layout_constraintTop_toTopOf="0" />
+		<ImageView android:id="false" android:padding="7dp" android:layout_width="50dp" android:layout_height="40dp" android:layout_marginEnd="12dp" app:layout_constraintBottom_toBottomOf="false" app:layout_constraintRight_toRightOf="0" app:layout_constraintTop_toTopOf="false" />
+		<TextView android:textSize="15sp" android:textColor="1a181e" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="8dp" android:fontFamily="res/font/font_family_galano_medium.xml" app:layout_constraintLeft_toLeftOf="false" app:layout_constraintTop_toBottomOf="false" />
+		<TextView android:textSize="15sp" android:textColor="808080" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="8dp" android:fontFamily="res/font/font_family_galano_regular.xml" android:layout_marginStart="8dp" app:layout_constraintLeft_toRightOf="false" app:layout_constraintTop_toBottomOf="false" />
+		<TextView android:textSize="13sp" android:textColor="e5b20" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="12dp" android:fontFamily="res/font/font_family_galano_regular.xml" app:layout_constraintLeft_toLeftOf="false" app:layout_constraintTop_toBottomOf="false" />
+		<LinearLayout android:gravity="0x11" android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2" app:layout_constraintTop_toBottomOf="false">
+			<View android:id="false" android:background="a1a181e" android:layout_width="-1" android:layout_height="2dp" android:layout_marginTop="17dp" />
+			<LinearLayout android:gravity="0x11" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="12dp" android:layout_marginBottom="10dp">
+				<ImageView android:layout_width="16dp" android:layout_height="18dp" android:layout_marginRight="12dp" android:src="resourceId:0x7f080228" />
+				<TextView android:textSize="14sp" android:textColor="000" android:layout_width="-2" android:layout_height="-2" android:text="Share Product" android:fontFamily="res/font/font_family_galano_regular.xml" />
+			</LinearLayout>
+		</LinearLayout>
+	</androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>

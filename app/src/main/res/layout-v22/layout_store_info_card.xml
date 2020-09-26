@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:card_view="http://schemas.android.com/apk/res-auto" android:layout_width="-1" android:layout_height="-1" android:outlineSpotShadowColor="641a181e" android:outlineAmbientShadowColor="641a181e" card_view:cardElevation="3dp" card_view:cardUseCompatPadding="true">
+	<LinearLayout android:orientation="1" android:padding="12dp" android:layout_width="-1" android:layout_height="-2">
+		<TextView android:textSize="14sp" android:textColor="1a181e" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="4dp" android:text="Share link on WhatsApp" android:fontFamily="res/font/font_family_galano_medium.xml" />
+		<TextView android:textSize="13sp" android:textColor="808080" android:layout_width="-2" android:layout_height="-2" android:text="Your customers can visit your online store and place the orders from this link." android:fontFamily="res/font/font_family_galano_regular.xml" />
+		<RelativeLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="12dp">
+			<View android:gravity="0x11" android:id="false" android:background="res/drawable/bg_btn_whatsapp.xml" android:layout_width="89dp" android:layout_height="28dp" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+			<TextView android:textSize="14sp" android:textColor="ee741f" android:ellipsize="3" android:id="false" android:layout_width="-2" android:layout_height="-2" android:maxLines="1" android:layout_centerVertical="true" android:fontFamily="res/font/font_family_galano_medium.xml" android:paddingEnd="12dp" android:layout_marginEnd="8dp" android:layout_toStartOf="false" android:layout_alignParentStart="true" />
+		</RelativeLayout>
+	</LinearLayout>
+</com.google.android.material.card.MaterialCardView>

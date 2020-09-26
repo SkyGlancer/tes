@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="false" app:startDestination="false">
+	<fragment android:label="Home" android:name="app.dukhaan.ui.home.HomeFragment" android:id="false" />
+	<fragment android:label="Orders" android:name="app.dukhaan.ui.orders.OrdersFragment" android:id="false" />
+	<fragment android:label="Orders" android:name="app.dukhaan.ui.orders_list.OrdersListFragment" android:id="false" />
+	<fragment android:label="Products" android:name="app.dukhaan.ui.products.ProductsFragment" android:id="false" />
+	<fragment android:label="Categories" android:name="app.dukhaan.ui.categories.CategoriesFragment" android:id="false" />
+	<fragment android:label="Account" android:name="app.dukhaan.ui.account.AccountFragment" android:id="false" />
+</navigation>

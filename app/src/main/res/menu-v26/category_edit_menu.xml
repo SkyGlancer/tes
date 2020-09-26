@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="false" android:title="Edit category name" android:font="res/font/font_family_galano_regular.xml" />
+	<item android:id="false" android:title="Share category" android:font="res/font/font_family_galano_regular.xml" />
+	<item android:id="false" android:title="Delete category" android:font="res/font/font_family_galano_regular.xml" />
+</menu>

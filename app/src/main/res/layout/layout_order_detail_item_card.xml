@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:card_view="http://schemas.android.com/apk/res-auto" android:background="resourceId:0x106000d" android:paddingTop="4dp" android:paddingBottom="4dp" android:layout_width="-1" android:layout_height="-2">
+	<com.google.android.material.imageview.ShapeableImageView android:id="false" android:layout_width="64dp" android:layout_height="64dp" android:scaleType="6" android:adjustViewBounds="true" card_view:layout_constraintLeft_toLeftOf="0" card_view:layout_constraintTop_toTopOf="0" />
+	<LinearLayout android:orientation="1" android:layout_width="0dp" android:layout_height="-2" card_view:layout_constraintLeft_toRightOf="false" card_view:layout_constraintRight_toRightOf="0" card_view:layout_constraintTop_toTopOf="0">
+		<TextView android:textSize="15sp" android:textColor="1a181e" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="8dp" android:fontFamily="res/font/font_family_galano_regular.xml" android:layout_marginStart="16dp" />
+		<LinearLayout android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="4dp" android:layout_marginStart="16dp" card_view:layout_constraintLeft_toRightOf="false" card_view:layout_constraintTop_toBottomOf="false">
+			<TextView android:textSize="13sp" android:textColor="808080" android:id="false" android:visibility="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="4dp" android:layout_marginBottom="6dp" android:text="Size: XL | Colour : " android:lineSpacingExtra="0sp" android:fontFamily="res/font/font_family_galano_regular.xml" />
+			<androidx.cardview.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto" android:id="false" android:visibility="0" android:layout_width="16dp" android:layout_height="16dp" android:layout_marginTop="5dp" android:layout_marginBottom="6dp" card_view:cardBackgroundColor="146eb4" card_view:cardCornerRadius="2dp" />
+		</LinearLayout>
+		<RelativeLayout android:gravity="0x11" android:layout_width="-1" android:layout_height="-2">
+			<TextView android:textSize="14sp" android:textColor="146eb4" android:gravity="0x11" android:id="false" android:background="res/drawable/bg_item_count_rounded.xml" android:layout_width="25dp" android:layout_height="25dp" android:layout_marginBottom="8dp" android:foregroundGravity="0x11" android:fontFamily="res/font/font_family_galano_regular.xml" android:layout_marginStart="16dp" />
+			<TextView android:textSize="14sp" android:textColor="1a181e" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="3dp" android:text="x 300" android:fontFamily="res/font/font_family_galano_regular.xml" android:layout_marginStart="32dp" android:layout_alignStart="false" />
+			<TextView android:textSize="14sp" android:textColor="1a181e" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="3dp" android:text="1200" android:fontFamily="res/font/font_family_galano_regular.xml" android:layout_alignParentEnd="true" />
+		</RelativeLayout>
+	</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

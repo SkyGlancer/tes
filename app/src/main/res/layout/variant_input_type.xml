@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x800005" android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+	<EditText android:textSize="16sp" android:textColor="1a181e" android:textColorHint="b3b3b3" android:id="false" android:background="res/drawable/editext_background.xml" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="8dp" android:hint="Type Value" android:maxLines="1" android:inputType="0x2001" android:fontFamily="res/font/font_family_galano_regular.xml" />
+	<TextView android:textSize="14sp" android:textColor="e5b20" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="8dp" android:text="Delete" android:lineSpacingExtra="6sp" android:textAllCaps="true" android:fontFamily="res/font/font_family_galano_regular.xml" />
+</LinearLayout>

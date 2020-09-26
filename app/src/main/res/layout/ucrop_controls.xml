@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+	<FrameLayout android:id="false" android:background="ffffff" android:layout_width="-1" android:layout_height="64dp" android:layout_above="false">
+		<LinearLayout android:gravity="0x11" android:orientation="0" android:id="false" android:layout_width="-1" android:layout_height="-1" />
+		<include android:id="false" layout="res/layout/ucrop_layout_rotate_wheel.xml" />
+		<include android:id="false" layout="res/layout/ucrop_layout_scale_wheel.xml" />
+	</FrameLayout>
+	<ImageView android:background="res/drawable/ucrop_shadow_upside.xml" android:layout_width="-1" android:layout_height="3dp" android:layout_above="false" />
+	<LinearLayout android:gravity="0x11" android:orientation="0" android:id="false" android:background="ffffff" android:layout_width="-1" android:layout_height="72dp" android:baselineAligned="false" android:layout_alignParentBottom="true">
+		<FrameLayout android:id="false" style="resourceId:0x7f14030c">
+			<ImageView android:id="false" android:src="resourceId:0x7f080276" style="resourceId:0x7f140309" />
+		</FrameLayout>
+		<FrameLayout android:id="false" style="resourceId:0x7f14030c">
+			<ImageView android:id="false" android:src="resourceId:0x7f080270" style="resourceId:0x7f140309" />
+		</FrameLayout>
+		<FrameLayout android:id="false" style="resourceId:0x7f14030c">
+			<ImageView android:id="false" android:src="resourceId:0x7f080275" style="resourceId:0x7f140309" />
+		</FrameLayout>
+	</LinearLayout>
+</merge>

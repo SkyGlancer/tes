@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<RelativeLayout android:orientation="1" android:id="false" android:layout_width="-2" android:layout_height="-1" android:baselineAligned="false">
+		<LinearLayout android:id="false" android:layout_width="-2" android:layout_height="-1" android:layout_above="false">
+			<com.clevertap.android.sdk.CTCarouselViewPager android:id="false" android:layout_width="-2" android:layout_height="-1" />
+		</LinearLayout>
+		<RelativeLayout android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentBottom="true">
+			<LinearLayout android:orientation="0" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="6dp" android:layout_centerHorizontal="true" />
+			<LinearLayout android:layout_width="-2" android:layout_height="-2" android:layout_alignParentRight="true" android:layout_alignParentEnd="true">
+				<TextView android:textColor="resourceId:0x1060000" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="10dp" android:layout_marginEnd="10dp" />
+				<ImageView android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginRight="20dp" android:src="res/drawable/ct_read_circle.xml" android:layout_marginStart="10dp" android:layout_marginEnd="20dp" />
+			</LinearLayout>
+		</RelativeLayout>
+	</RelativeLayout>
+</LinearLayout>

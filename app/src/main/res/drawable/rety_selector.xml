@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:state_selected="true" android:drawable="res/drawable/shape_retry_round_selected.xml" />
+	<item android:state_pressed="true" android:drawable="res/drawable/shape_retry_round_selected.xml" />
+	<item android:drawable="res/drawable/shape_retry_round.xml" />
+</selector>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:icon="res/drawable/ic_navigation_home_state.xml" android:id="false" android:title="Home" />
+	<item android:icon="res/drawable/ic_navigation_orders_state.xml" android:id="false" android:title="Orders" />
+	<item android:icon="res/drawable/ic_navigation_products_state.xml" android:id="false" android:title="Products" />
+	<item android:icon="res/drawable/ic_navigation_categories_state.xml" android:id="false" android:title="Categories" />
+	<item android:icon="res/drawable/ic_navigation_account_state.xml" android:id="false" android:title="Account" />
+</menu>

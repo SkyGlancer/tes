@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="false" android:tag="layout/list_header_overview_0" android:layout_width="-1" android:layout_height="-1">
+	<TextView android:textSize="16sp" android:textColor="1a181e" android:layout_width="-2" android:layout_height="-2" android:text="Overview" android:fontFamily="res/font/font_family_galano_medium.xml" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintTop_toTopOf="0" />
+	<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:background="{2:2130969351}" android:paddingTop="8dp" android:paddingBottom="8dp" android:focusable="true" android:clickable="true" android:layout_width="-2" android:layout_height="-2" android:paddingStart="8dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintRight_toRightOf="0" app:layout_constraintTop_toTopOf="0">
+		<TextView android:textSize="14sp" android:textColor="808080" android:gravity="0x800005" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Life Time" android:fontFamily="res/font/font_family_galano_regular.xml" />
+		<ImageView android:layout_width="20dp" android:layout_height="20dp" android:src="resourceId:0x7f080060" />
+	</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
